@@ -44,4 +44,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'hue'
+gem 'hue',
+  git: 'git@github.com:soffes/hue.git',
+  ref: '0b9a8380b636f0ee7ba12c9382579682eb6b26a4'

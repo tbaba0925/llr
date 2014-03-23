@@ -1,3 +1,12 @@
+GIT
+  remote: git@github.com:soffes/hue.git
+  revision: 0b9a8380b636f0ee7ba12c9382579682eb6b26a4
+  ref: 0b9a8380b636f0ee7ba12c9382579682eb6b26a4
+  specs:
+    hue (0.1.2)
+      multi_json
+      thor
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,9 +47,6 @@ GEM
     erubis (2.7.0)
     execjs (2.0.2)
     hike (1.2.3)
-    hue (0.1.2)
-      multi_json
-      thor
     i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -113,7 +119,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  hue
+  hue!
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.0)
